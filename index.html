@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hyrox Men's Doubles Open Strategy | Race Simulator</title>
+    <title>Hyrox Mixed Doubles Strategy | Race Simulator</title>
     <style>
         * {
             margin: 0;
@@ -1343,8 +1343,8 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>Hyrox Men's Doubles Open</h1>
-            <p class="subtitle">Jordan & Casey's Open Strategy</p>
+            <h1>Hyrox Mixed Doubles</h1>
+            <p class="subtitle">Jordan & Casey's Mixed Doubles Strategy</p>
         </div>
 
         <div class="target-time">
@@ -1378,26 +1378,30 @@
         </div>
 
         <div class="strategy-rules">
-            <div class="rule-chip">Shanghai: Doubles Men is listed for May 17, 2026</div>
+            <div class="rule-chip">Division: Mixed Doubles</div>
             <div class="rule-chip">Runs: both athletes complete every 1km together</div>
             <div class="rule-chip">Stations: YGIG, partner stays in station</div>
-            <div class="rule-chip">Finish: Wall Balls is the final station</div>
+            <div class="rule-chip">Wall Ball targets: male 3.00m / female 2.70m</div>
         </div>
 
         <div class="rules-source">
-            Last checked: Apr 24, 2026 | Open Men's Doubles | <a href="https://maintain.hyrox.com/rulebooks/HYROX_RulebookDoubles_EN.pdf" target="_blank" rel="noopener">HYROX 25/26 Doubles Rulebook</a>. Shanghai laps and venue layout still need the event technical briefing.
+            Last checked: Apr 24, 2026 | Mixed Doubles | <a href="https://maintain.hyrox.com/rulebooks/HYROX_RulebookDoubles_EN.pdf" target="_blank" rel="noopener">HYROX 25/26 Doubles Rulebook</a>. Shanghai wave time, laps, and venue layout still need the event technical briefing.
         </div>
 
         <div class="rules-audit" aria-label="Shanghai rule check">
-            <div class="rules-audit-title">Shanghai Rule Check</div>
+            <div class="rules-audit-title">Mixed Doubles Rule Check</div>
             <div class="rules-audit-grid">
                 <div class="rules-audit-item">
                     <strong>Race Structure</strong>
                     8 x 1km runs plus Ski Erg, Sled Push, Sled Pull, Burpee Broad Jumps, Row, Farmers Carry, Sandbag Lunges, and Wall Balls.
                 </div>
                 <div class="rules-audit-item">
-                    <strong>Men's Open Weights</strong>
-                    Sled Push 152kg, Sled Pull 103kg, Farmers Carry 2 x 24kg, Sandbag Lunges 20kg, Wall Ball 6kg.
+                    <strong>Mixed Doubles Weights</strong>
+                    Same as Men/Mixed Open: Sled Push 152kg, Sled Pull 103kg, Farmers Carry 2 x 24kg, Sandbag Lunges 20kg, Wall Ball 6kg.
+                </div>
+                <div class="rules-audit-item">
+                    <strong>Wall Ball Targets</strong>
+                    Mixed Doubles uses athlete-specific targets: male athlete 3.00m and female athlete 2.70m.
                 </div>
                 <div class="rules-audit-item warning">
                     <strong>Team Separation</strong>
@@ -1405,16 +1409,16 @@
                 </div>
                 <div class="rules-audit-item warning">
                     <strong>Shanghai TBA Items</strong>
-                    The official event page currently marks race schedule details and running laps as TBA, so update this plan after the Shanghai athlete guide is released.
+                    The official event page gives the May 16-17, 2026 event window. Update exact Mixed Doubles wave time, running laps, and venue map after the Shanghai athlete guide is released.
                 </div>
                 <div class="rules-audit-item warning">
-                    <strong>Open Scope</strong>
-                    This simulator is built for Men's Open Doubles weights and pacing. Do not reuse the loads for Pro without rebuilding the station plan.
+                    <strong>Mixed Scope</strong>
+                    This simulator is built for Mixed Doubles using Men/Mixed Open weights and mixed Wall Ball target heights. Do not reuse Pro loads without rebuilding the station plan.
                 </div>
             </div>
         </div>
 
-        <div class="race-flow" aria-label="Men's Doubles race flow">
+        <div class="race-flow" aria-label="Mixed Doubles race flow">
             <div class="flow-step run-step"><span class="flow-code">R1</span>Run 1</div>
             <div class="flow-step workout-step"><span class="flow-code">SKI</span>Ski Erg</div>
             <div class="flow-step run-step"><span class="flow-code">R2</span>Run 2</div>
@@ -1543,7 +1547,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="special-notes">Alternate every 250m so only one athlete works at a time.</div>
+                        <div class="special-notes">Alternate every 250m so only one athlete works at a time; release the handles fully before the partner takes over.</div>
                     </div>
                 </div>
                 <div class="cumulative-time">7:20</div>
@@ -1611,7 +1615,7 @@
                                 <div class="shuttle-leg" data-athlete="casey" data-short="C" data-direction="back">C back 12.5m</div>
                             </div>
                         </div>
-                        <div class="special-notes">Official structure: 50m total, 4 lengths of 12.5m. Use 25m/25m to reduce handoff time; the resting partner stays behind the sled inside the station.</div>
+                        <div class="special-notes">Official structure: 50m total as 4 x 12.5m. The 25m split means two legal lane lengths per athlete, not one straight push; change only after the sled fully crosses the line.</div>
                     </div>
                 </div>
                 <div class="cumulative-time">12:45</div>
@@ -1679,7 +1683,7 @@
                                 <div class="shuttle-leg" data-athlete="casey" data-short="C" data-direction="back">C back 12.5m</div>
                             </div>
                         </div>
-                        <div class="special-notes">Official structure: 50m total, 4 pulls of 12.5m. Use 25m/25m to avoid extra rope handoffs; complete each pull past the marked line before changing.</div>
+                        <div class="special-notes">Official structure: 50m total as 4 x 12.5m. The 25m split means two complete lane pulls per athlete; change only after the sled fully crosses the line and stops.</div>
                     </div>
                 </div>
                 <div class="cumulative-time">19:05</div>
@@ -1751,7 +1755,7 @@
                                 <div class="shuttle-leg" data-athlete="casey" data-short="C" data-direction="back">C finish 10m</div>
                             </div>
                         </div>
-                        <div class="special-notes">Official distance is 80m total. The 10m markers here are handoff targets, not the fixed lane length; follow the Shanghai venue lines and judge instructions.</div>
+                        <div class="special-notes">Official distance is 80m total. The 10m markers here are handoff targets; the resting athlete stays behind and the next athlete starts from the previous landing point.</div>
                     </div>
                 </div>
                 <div class="cumulative-time">25:10</div>
@@ -1803,23 +1807,15 @@
                             <div class="timeline-track">
                                 <div class="timeline-block jordan-block">
                                     <div class="timeline-label">Jordan</div>
-                                    <div class="timeline-distance">250m</div>
+                                    <div class="timeline-distance">500m</div>
                                 </div>
                                 <div class="timeline-block casey-block">
                                     <div class="timeline-label">Casey</div>
-                                    <div class="timeline-distance">250m</div>
-                                </div>
-                                <div class="timeline-block jordan-block">
-                                    <div class="timeline-label">Jordan</div>
-                                    <div class="timeline-distance">250m</div>
-                                </div>
-                                <div class="timeline-block casey-block">
-                                    <div class="timeline-label">Casey</div>
-                                    <div class="timeline-distance">250m</div>
+                                    <div class="timeline-distance">500m</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="special-notes">Take clean 250m turns so the effort stays sequential.</div>
+                        <div class="special-notes">Use one 500m/500m changeover to reduce foot-strap transition loss; each athlete manages their own straps.</div>
                     </div>
                 </div>
                 <div class="cumulative-time">33:05</div>
@@ -1887,7 +1883,7 @@
                                 <div class="shuttle-leg" data-athlete="casey" data-short="C" data-direction="back">C finish 50m</div>
                             </div>
                         </div>
-                        <div class="special-notes">200m total as 100m/100m to reduce grip-reset and handoff time. Confirm Shanghai turns and handoff points from the athlete guide.</div>
+                        <div class="special-notes">200m total as 100m/100m to reduce grip-reset and handoff time. If changing early, pass kettlebells sideways or backward, never forward.</div>
                     </div>
                 </div>
                 <div class="cumulative-time">38:30</div>
@@ -1955,7 +1951,7 @@
                                 <div class="shuttle-leg" data-athlete="casey" data-short="C" data-direction="back">C finish 25m</div>
                             </div>
                         </div>
-                        <div class="special-notes">100m total with section turns. Each athlete works one lane section while the partner waits at the handoff end.</div>
+                        <div class="special-notes">100m total with 25m sections. Each athlete works one lane section while the partner waits behind; pass the sandbag from behind, never forward.</div>
                     </div>
                 </div>
                 <div class="cumulative-time">44:50</div>
@@ -2011,28 +2007,32 @@
                                 </div>
                                 <div class="timeline-block casey-block">
                                     <div class="timeline-label">Casey</div>
-                                    <div class="timeline-distance">20</div>
+                                    <div class="timeline-distance">15</div>
                                 </div>
                                 <div class="timeline-block jordan-block">
                                     <div class="timeline-label">Jordan</div>
-                                    <div class="timeline-distance">20</div>
+                                    <div class="timeline-distance">15</div>
                                 </div>
                                 <div class="timeline-block casey-block">
                                     <div class="timeline-label">Casey</div>
-                                    <div class="timeline-distance">20</div>
+                                    <div class="timeline-distance">15</div>
                                 </div>
                                 <div class="timeline-block jordan-block">
                                     <div class="timeline-label">Jordan</div>
-                                    <div class="timeline-distance">20</div>
+                                    <div class="timeline-distance">15</div>
                                 </div>
                                 <div class="timeline-block casey-block">
                                     <div class="timeline-label">Casey</div>
-                                    <div class="timeline-distance">10</div>
+                                    <div class="timeline-distance">15</div>
+                                </div>
+                                <div class="timeline-block jordan-block">
+                                    <div class="timeline-label">Jordan</div>
+                                    <div class="timeline-distance">15</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="station-alert">No-rep buffer: repeat any missed rep immediately; this is a judging reserve, not a planned work block.</div>
-                        <div class="special-notes">Final station: open with 10 reps, then switch in 20-rep sets; leave room to repeat any No rep immediately.</div>
+                        <div class="station-alert">Targets: Jordan 3.00m, Casey 2.70m. Repeat any No rep immediately.</div>
+                        <div class="special-notes">Use 10-15 rep sets to protect squat depth and avoid no-reps; no flying handoffs.</div>
                     </div>
                 </div>
                 <div class="cumulative-time">52:20</div>
