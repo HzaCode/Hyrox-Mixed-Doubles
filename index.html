@@ -1668,7 +1668,10 @@
                 font-size: 0.74rem;
             }
 
-            /* Wall Balls / Row timeline-track: scrollable when too many blocks */
+            /* Wall Balls / Row / Ski Erg timeline-track: each block keeps a 56px
+               minimum, but expands to fill on stations with few blocks
+               (e.g. Row=2, Ski Erg=4). Wall Balls (7 blocks) still overflows
+               and exposes a horizontal scrollbar. */
             .timeline-track {
                 overflow-x: auto;
                 scrollbar-width: thin;
@@ -1676,8 +1679,7 @@
             }
 
             .timeline-block {
-                min-width: 56px;
-                flex: 0 0 auto;
+                flex: 1 0 56px;
             }
 
             .timeline-label {
