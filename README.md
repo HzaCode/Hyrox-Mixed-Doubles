@@ -2,7 +2,7 @@
 
 A single-page planner for HYROX Men's Doubles teams. Drop in your target time, partner names, and station splits, and the page renders an animated 16-segment timeline plus a rules checklist you can scan at a glance.
 
-The current numbers are filled in for Jordan & Casey's plan around HYROX Shanghai 2026 as a worked example, but every section is meant to be edited for your own race and city. Numbers and rule chips are configured for **Men's Doubles** at Open loads (152 / 103 / 24 / 20 / 9kg). Mixed, Women's, and Pro divisions need their own station plans.
+The current numbers are filled in for Jordan & Casey's plan around HYROX Shanghai 2026 as a worked example, but every section is meant to be edited for your own race and city. Numbers and rule chips are configured for **Men's Doubles** at Open loads (Sled Push 152kg, Sled Pull 103kg, Farmers Carry 2 x 24kg, Sandbag 20kg, Wall Ball 6kg). Mixed, Women's, and Pro divisions need their own station plans.
 
 ## What's on the page
 
@@ -54,7 +54,7 @@ Both athletes complete every 1km run. Workout stations use YGIG format: one athl
 ## Rule checks (verify against your event's athlete guide)
 
 - Both athletes must complete every 1km run together and enter/exit each workout station together. "Within 5 seconds" is a common coaching cue, but the rulebook only enforces *together at the lane line* — partners cannot start or leave a station alone.
-- Men's Doubles uses Open Men's loads: Sled Push 152kg, Sled Pull 103kg, Farmers Carry 2 x 24kg, Sandbag Lunges 20kg, Wall Ball 9kg.
+- Men's Doubles uses Open Men's loads: Sled Push 152kg, Sled Pull 103kg, Farmers Carry 2 x 24kg, Sandbag Lunges 20kg, Wall Ball 6kg. (9kg is the Men Pro weight.)
 - Wall Ball target: 3.00m for both athletes (Men's Doubles uses one shared target — there are no athlete-specific heights here).
 - Wave time, lap count, and venue layout vary by event — confirm them in your athlete guide.
 

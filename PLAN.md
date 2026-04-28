@@ -49,7 +49,7 @@ Shanghai-specific items still need the athlete guide:
 13. Run 7 - 1km together - 3:50
 14. Sandbag Lunges - 100m - 2:30 - 4 x 25m
 15. Run 8 - 1km together - 3:50
-16. Wall Balls - 100 reps - 3:40 - use 10-15 rep sets, male target 3.00m, female target 2.70m, repeat any No rep immediately
+16. Wall Balls - 100 reps - 3:40 - 10-15 rep sets, 3.00m target for Men's Doubles (2.70m for Women's), tally no-reps and have one partner clean them up at the end (each missing rep = 15s penalty)
 
 ## Implementation Notes
 
